@@ -1,0 +1,22 @@
+
+Problemática:
+una compañía está realizando muebles, pero como los planos están en cm y las máquinas en pulgadas hay una discrepancia de medidas.
+
+----------------------------------------------------
+
+Algoritmo:
+1. solicitar al usuario las medidas de la pieza en cm
+2. convertir las medidas de cm a pulgadas
+3. mostrar las medidas convertidas en pulgadas al usuario
+
+----------------------------------------------------
+
+Pesudocódigo:
+
+Inicio
+   # 1. solicitar al usuario las medidas de la pieza en cm
+   Mostrar Mensaje: Por favor ingresá la medida de la pieza en centímetros
+   # 2. convertir las medidas de cm a pulgadas
+   convertir medida_en_pulgadas = medida_en_cm / 2.54
+   # 3. mostrar las medidas convertidas en pulgadas al usuario
+   Mostrar Mensaje: La medida en pulgadas es: 
